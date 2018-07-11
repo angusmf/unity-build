@@ -1,4 +1,4 @@
-FROM angusmf/unity-dependencies:2018.2.0f1
+FROM angusmf/unity-dependencies:2018.1.6f1
 
 RUN apt-get -qq update && apt-get -qq install -y \
     ffmpeg nodejs default-jre gzip \
