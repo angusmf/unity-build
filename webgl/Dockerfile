@@ -1,4 +1,4 @@
-FROM angusmf/unity-editor:2019.1.0b9
+FROM angusmf/unity-editor:2020.1.3f1
 
 RUN apt-get -qq update && apt-get -qq install -y \
     ffmpeg nodejs default-jre gzip \
